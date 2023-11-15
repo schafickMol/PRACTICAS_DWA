@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    color: #fff;
+  }
+  .cuerpo {
+        background-image: url(/img/fondo.avif);
+  }
+  
+  .titulo {
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra según tus preferencias */
+  }
+
+  .fondo {
+    color: black;
+    background-color: #fff;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+  }
+  
+
+.card-container {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    margin: 0 10px; /* Añade margen entre las tarjetas si es necesario */
+  }
+  
